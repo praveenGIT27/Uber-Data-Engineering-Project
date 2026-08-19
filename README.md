@@ -7,6 +7,34 @@
 ![Looker](https://img.shields.io/badge/Looker_Studio-Dashboard-green?logo=looker)
 
 ---
+🛠️ Tools & Technologies
+☁️ Cloud Infrastructure
+![GCP](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![GCS](https://img.shields.io/badge/Google_Cloud_Storage-AECBFA?style=for-the-badge&logo=googlecloud&logoColor=black)
+![Compute Engine](https://img.shields.io/badge/Compute_Engine_(VM)-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+🔄 Pipeline Orchestration
+![Mage.ai](https://img.shields.io/badge/Mage.ai-7C3AED?style=for-the-badge&logo=data:image/png;base64,&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+🗄️ Data Warehouse & SQL
+![BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+📊 Visualization & Dashboarding
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+💻 Development & Version Control
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian_Linux-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+---
+📐 What I Did With Each Tool
+Tool	How I Used It
+GCP Compute Engine	Hosted Mage.ai pipeline on a Debian VM (e2-medium)
+Google Cloud Storage	Stored raw `uber_data.csv` (15.8 MB) as a public bucket
+Mage.ai	Orchestrated the 3-block ETL pipeline (Loader → Transformer → Exporter)
+Python / Pandas	Transformed raw data into star schema — 7 dimension tables + 1 fact table
+Google BigQuery	Loaded and queried 100K rows across 8 tables in a cloud data warehouse
+SQL	Wrote analytics queries using CTEs, Window Functions, RANK(), CASE WHEN
+Looker Studio	Built an interactive dashboard with KPI cards, bar charts, and slicers
+GitHub	Version-controlled all pipeline code, SQL queries, and documentation
 
 ## 📌 Project Overview
 
